@@ -12,7 +12,6 @@ public class Main {
         k.talk(h);
 
         Inn i = new Inn();
-        System.out.println("宿屋で回復中...");
         i.checkIn(h);
 
         h.attack(m);

@@ -38,7 +38,7 @@ public class Hero {
     void sleep() {
         this.setHp(100);
         System.out.println(this.getName() + "の現在のHP: " + this.getHp());
-        System.out.println(this.name + "は眠って回復した！");
+        System.out.println(this.name + "、は眠って回復した！");
     }
     public void attack(Matango m) {
         System.out.println(this.name + "の攻撃！");
